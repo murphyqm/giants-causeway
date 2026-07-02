@@ -178,7 +178,7 @@ const v5Layer = L.featureGroup();
 // Load v5 combined features from GeoJSON
 async function loadV5() {
     try {
-        const response = await fetch('./v5.geojson');
+        const response = await fetch('./manual_updates_manifests_consolidated.geojson');
         const geojsonData = await response.json();
         
         geojsonData.features.forEach(feature => {
