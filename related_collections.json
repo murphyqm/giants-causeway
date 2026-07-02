@@ -1,0 +1,34 @@
+{
+  "related_collections": [
+    {
+      "title": "National Library of Ireland Photographic Collections",
+      "url": "https://catalogue.nli.ie/",
+      "relevance": "Historic Causeway Coast and Ulster landscape photography"
+    },
+    {
+      "title": "Historic Environment Division (Northern Ireland) Archives",
+      "url": "https://www.communities-ni.gov.uk/topics/historic-environment",
+      "relevance": "Historic monuments, maps and survey material"
+    },
+    {
+      "title": "UK National Trust Collections",
+      "url": "https://www.nationaltrustcollections.org.uk/",
+      "relevance": "Objects, paintings and archival material relating to the Giant's Causeway"
+    },
+    {
+      "title": "Europeana",
+      "url": "https://www.europeana.eu/",
+      "relevance": "Historic postcards, photographs and illustrations"
+    },
+    {
+      "title": "Northern Ireland Screen Digital Film Archive",
+      "url": "https://digitalfilmarchive.net/",
+      "relevance": "Historical moving-image records of the Causeway Coast"
+    },
+    {
+      "title": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Giant%27s_Causeway",
+      "relevance": "Freely reusable historical and modern imagery"
+    }
+  ]
+}

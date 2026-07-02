@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giant's Causeway Map</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="map"></div>
+    
+    <!-- Geology Toggle -->
+    <div style="position: absolute; top: 10px; right: 10px; z-index: 400; background: white; padding: 10px 15px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333; margin-bottom: 8px;">
+            <input type="checkbox" id="toggleGeology" checked style="margin-right: 8px; cursor: pointer;">
+            Geological Map
+        </label>
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333; margin-bottom: 8px;">
+            <input type="checkbox" id="toggleFeatures" checked style="margin-right: 8px; cursor: pointer;">
+            Features
+        </label>
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333; margin-bottom: 8px;">
+            <input type="checkbox" id="toggleMachineGenerated" style="margin-right: 8px; cursor: pointer;">
+            Machine Generated
+        </label>
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333; margin-bottom: 8px;">
+            <input type="checkbox" id="toggleLocations" style="margin-right: 8px; cursor: pointer;">
+            Locations
+        </label>
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333; margin-bottom: 8px;">
+            <input type="checkbox" id="toggleHistorical" style="margin-right: 8px; cursor: pointer;">
+            Bingley 1894
+        </label>
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333; margin-bottom: 8px;">
+            <input type="checkbox" id="togglePolygons" style="margin-right: 8px; cursor: pointer;">
+            Triangular Areas
+        </label>
+        <label style="display: flex; align-items: center; cursor: pointer; font-size: 14px; color: #333;">
+            <input type="checkbox" id="toggleLegend" style="margin-right: 8px; cursor: pointer;">
+            Legend
+        </label>
+    </div>
+    
+    <!-- Legend Modal -->
+    <div id="legendModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 500; align-items: center; justify-content: center;">
+        <div style="background: white; padding: 20px; border-radius: 8px; max-width: 90%; max-height: 90%; overflow: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h2 style="margin: 0; color: #333;">Geological Map Legend</h2>
+                <button id="closeLegend" style="background: none; border: none; font-size: 24px; cursor: pointer; color: #999;">&times;</button>
+            </div>
+            <img src="./legend.png" alt="Geological Map Legend" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="map.js"></script>
+</body>
+</html>

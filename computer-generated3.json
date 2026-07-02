@@ -1,0 +1,240 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bingley_Giants_Causeway_1894",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Amphitheatre",
+        "modern_name": "The Amphitheatre (Port Reostan)",
+        "historical_name": "Port Reostan",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5188, 55.2429]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Chimney Stack(s)",
+        "modern_name": "Chimney Stacks",
+        "historical_name": "Chimney Stacks",
+        "confidence": "Medium-High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5172, 55.2418]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Honeycomb",
+        "modern_name": "Middle Causeway (Honeycomb)",
+        "historical_name": "Honeycomb",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5129, 55.2409]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Grand Causeway",
+        "modern_name": "Grand Causeway",
+        "historical_name": "Grand Causeway",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5117, 55.2406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Gateway",
+        "modern_name": "Giant's Gate",
+        "historical_name": "Gateway",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5136, 55.2402]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Giant's Eye",
+        "modern_name": "Giant's Eyes",
+        "historical_name": "Giant's Eye",
+        "confidence": "Medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5192, 55.2432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Howe's Back",
+        "modern_name": "Howe's Back",
+        "historical_name": "Howes Back",
+        "confidence": "Medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5148, 55.2415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Lady's Fan",
+        "modern_name": "Lady's Fan",
+        "historical_name": "Lady's Fan",
+        "confidence": "Medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5160, 55.2420]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Lea Gull Skerry",
+        "modern_name": "Gull Skerry",
+        "historical_name": "Lea Gull Skerry",
+        "confidence": "Medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5201, 55.2424]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Loom",
+        "modern_name": "Giant's Loom",
+        "historical_name": "Loom",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5122, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Lord Antrim's Parlour",
+        "modern_name": "Lord Antrim's Parlour",
+        "historical_name": "Lord Antrim's Parlour",
+        "confidence": "Medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5120, 55.2407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Organ",
+        "modern_name": "The Organ",
+        "historical_name": "Giant's Organ",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5150, 55.2419]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Portnaboe",
+        "modern_name": "Portnaboe Bay",
+        "historical_name": "Portnaboe",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5088, 55.2398]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Portnaboe Trap Dyke",
+        "modern_name": "Portnaboe Trap Dyke",
+        "historical_name": "Patnaybo Trap Dyke",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5090, 55.2396]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Stookans",
+        "modern_name": "The Stookans",
+        "historical_name": "Stookaus",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5070, 55.2397]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Wishing Chair",
+        "modern_name": "Wishing Chair",
+        "historical_name": "Wishing Chair",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5121, 55.2405]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Hamilton's Seat",
+        "modern_name": "Hamilton's Seat",
+        "historical_name": "Hamilton's Seat",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5235, 55.2465]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature": "Giant's Causeway",
+        "modern_name": "Giant's Causeway UNESCO World Heritage Site",
+        "historical_name": "Clochan na bhFomhórach",
+        "confidence": "High"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5116, 55.2408]
+      }
+    }
+  ]
+}

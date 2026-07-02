@@ -1,0 +1,353 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Grand Causeway",
+        "osm_name": "Grand Causeway",
+        "artefacts": [
+          "Giant's Causeway",
+          "Grand Causeway",
+          "Causeway to W.",
+          "to sea",
+          "General and G. Well"
+        ],
+        "leeds_collection": "https://digital.library.leeds.ac.uk/15944/",
+        "folklore": [
+          "Principal location associated with the Finn McCool/Fionn mac Cumhaill causeway legend."
+        ],
+        "historical_notes": [
+          "One of the earliest scientifically described basalt formations in geology.",
+          "Important in 18th-century debates concerning volcanic versus neptunist theories."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5116, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "The Amphitheatre",
+        "osm_name": "Amphitheatre",
+        "artefacts": [
+          "Amphitheatre",
+          "Amphitheatre to E."
+        ],
+        "folklore": [
+          "Part of the giant-built landscape tradition surrounding Finn McCool."
+        ],
+        "historical_notes": [
+          "Large concave cliff formation east of the Grand Causeway."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5065, 55.2425]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Chimney Point",
+        "osm_name": "Chimney Point",
+        "artefacts": [
+          "Chimney Point",
+          "Chimney Point to W."
+        ],
+        "leeds_collection": "https://digital.library.leeds.ac.uk/15945/",
+        "historical_notes": [
+          "Named headland east of the Grand Causeway."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5038, 55.2438]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Chimney Stacks",
+        "osm_name": "Chimney Stacks",
+        "artefacts": [
+          "Chimney Stack",
+          "Chimney Stacks",
+          "Chimney Stacks to W.",
+          "from Chimney Stack to E.",
+          "from Chimney Stack to W."
+        ],
+        "historical_notes": [
+          "Columnar basalt sea stacks associated with the Chimney headland."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5019, 55.2445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "The Giant's Organ",
+        "osm_name": "Organ",
+        "artefacts": [
+          "Organ"
+        ],
+        "folklore": [
+          "Organ-pipe appearance contributed to many anthropomorphic names across the site."
+        ],
+        "historical_notes": [
+          "Iconic vertical basalt columns."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5160, 55.2420]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "The Wishing Chair",
+        "osm_name": "Wishing Chair",
+        "artefacts": [
+          "Wishing Chair"
+        ],
+        "folklore": [
+          "Visitors traditionally sat in the natural throne-shaped basalt seat to make wishes."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5127, 55.2409]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Giant's Eye",
+        "osm_name": "Giant's Eye",
+        "artefacts": [
+          "Giants Eye to E."
+        ],
+        "folklore": [
+          "Part of the tradition of naming formations after parts of a sleeping giant."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5088, 55.2419]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Honeycomb",
+        "osm_name": "Honeycomb",
+        "artefacts": [
+          "Honeycomb",
+          "Honeycombe from E."
+        ],
+        "historical_notes": [
+          "Named for weathered cellular basalt texture."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5075, 55.2413]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Lady's Fan",
+        "osm_name": "Lady's Fan",
+        "artefacts": [
+          "Lady's Fan"
+        ],
+        "historical_notes": [
+          "Fan-shaped arrangement of basalt columns."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5105, 55.2421]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Hamilton's Seat",
+        "osm_name": "Hamilton's Seat Viewpoint",
+        "artefacts": [
+          "from Hamilton's seat to W."
+        ],
+        "historical_notes": [
+          "Historic viewing point used by Victorian visitors.",
+          "Modern trail viewpoint overlooking Port na Tober and the Causeway cliffs."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5188, 55.2468]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Lord Antrim's Parlour",
+        "osm_name": "Lord Antrim's Parlour",
+        "artefacts": [
+          "Lord Antrim's parlour"
+        ],
+        "historical_notes": [
+          "Named after the Earls of Antrim, historic landowners of the Causeway estate."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5134, 55.2417]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Portnaboe",
+        "alternate_names": [
+          "Port na Bó",
+          "Patnaybo"
+        ],
+        "artefacts": [
+          "Portnaboe",
+          "Patnaybo Trap Dyke"
+        ],
+        "historical_notes": [
+          "Small bay and geological exposure east of the principal Causeway.",
+          "Trap dyke photographs likely document intrusive igneous features of geological interest."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.4995, 55.2452]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "The Loom",
+        "osm_name": "The Loom",
+        "artefacts": [
+          "Loom"
+        ],
+        "historical_notes": [
+          "Traditional Victorian name for a patterned basalt formation."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5090, 55.2410]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Gateway",
+        "osm_name": "Gateway",
+        "artefacts": [
+          "Gateway"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5110, 55.2415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Diamond",
+        "osm_name": "Diamond",
+        "artefacts": [
+          "Diamond"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5102, 55.2412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Lea Gull Skerry",
+        "alternate_names": [
+          "Sea Gull Skerry"
+        ],
+        "artefacts": [
+          "Lea Gull Skerry"
+        ],
+        "historical_notes": [
+          "Offshore skerry/rock used by seabirds."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5048, 55.2460]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Stookans",
+        "alternate_names": [
+          "Stookaus",
+          "The Stookans"
+        ],
+        "artefacts": [
+          "Stookaus"
+        ],
+        "historical_notes": [
+          "Basalt stack formations; modern spelling usually rendered 'Stookans'."
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.4978, 55.2468]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Basaltic Colour",
+        "artefacts": [
+          "Basaltic Colour"
+        ],
+        "interpretation": "Likely a close geological study rather than a distinct location."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5116, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location_name": "Howes Back",
+        "alternate_names": [
+          "Howe's Back"
+        ],
+        "artefacts": [
+          "Howes Back"
+        ],
+        "interpretation": "Historic local feature name requiring further map verification."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5070, 55.2428]
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "features": [
+    {
+      "lat": 55.2413,
+      "lng": -6.5098,
+      "title": "The Organ",
+      "category": "site",
+      "icon": "🪨",
+      "description": "The most distinctive rock formation with perfectly hexagonal basalt columns rising up to 100 feet.",
+      "link": "https://en.wikipedia.org/wiki/Giant%27s_Causeway#The_Organ"
+    },
+    {
+      "lat": 55.2410,
+      "lng": -6.5105,
+      "title": "The Giant's Boot",
+      "category": "site",
+      "icon": "👢",
+      "description": "A distinctive rock formation resembling a giant boot, one of the most photographed features.",
+      "image": "https://via.placeholder.com/300x200?text=Giant+Boot"
+    },
+    {
+      "lat": 55.2408,
+      "lng": -6.5120,
+      "title": "Visitor Centre",
+      "category": "artifact",
+      "icon": "🏛️",
+      "description": "National Trust visitor centre with exhibitions on the geology and mythology of the Giant's Causeway.",
+      "link": "https://www.nationaltrust.org.uk/giants-causeway",
+      "image": "https://via.placeholder.com/300x200?text=Visitor+Centre"
+    },
+    {
+      "lat": 55.2415,
+      "lng": -6.5115,
+      "title": "The Wishing Chair",
+      "category": "site",
+      "icon": "🪑",
+      "description": "A natural rock formation with a chair-like appearance. Local legend suggests wishes made here come true."
+    },
+    {
+      "lat": 55.2405,
+      "lng": -6.5090,
+      "title": "Chimney Stacks",
+      "category": "site",
+      "icon": "🏗️",
+      "description": "Vertical basalt columns that appear like industrial chimneys. Part of the cooling patterns of ancient lava flows."
+    },
+    {
+      "lat": 55.2410,
+      "lng": -6.5110,
+      "title": "Dunluce Castle Viewpoint",
+      "category": "historical",
+      "icon": "🏰",
+      "description": "Ruins of a medieval castle visible from the Causeway. Historic stronghold of the MacDonnell clan.",
+      "link": "https://en.wikipedia.org/wiki/Dunluce_Castle"
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Grand Causeway",
+        "all_names": [
+          "Giant's Causeway, Grand Causeway",
+          "Grand Causeway"
+        ],
+        "links": [
+          "https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/",
+          "https://www.francisfrith.com/giant-s-causeway/photos",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "The largest basalt pavement projecting into the sea"
+        ],
+        "folklore": [
+          "Principal location associated with the Finn McCool/Fionn mac Cumhaill causeway legend."
+        ],
+        "historical_notes": [
+          "Important in 18th-century debates concerning volcanic versus neptunist theories.",
+          "One of the earliest scientifically described basalt formations in geology."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5116,
+              55.2408
+            ],
+            [
+              -6.511,
+              55.2407
+            ],
+            [
+              -6.5117,
+              55.2406
+            ],
+            [
+              -6.5116,
+              55.2408
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "The Amphitheatre",
+        "all_names": [
+          "Amphitheatre",
+          "Giant's Causeway, Amphitheatre",
+          "Port Reostan",
+          "The Amphitheatre",
+          "The Amphitheatre (Port Reostan)"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://ccght.org/giantscausewaywhs/",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "Semicircular cliff recess east of the Grand Causeway below the Organ cliffs"
+        ],
+        "folklore": [
+          "Part of the giant-built landscape tradition surrounding Finn McCool."
+        ],
+        "historical_notes": [
+          "Large concave cliff formation east of the Grand Causeway."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5065,
+              55.2425
+            ],
+            [
+              -6.5098,
+              55.2415
+            ],
+            [
+              -6.5188,
+              55.2429
+            ],
+            [
+              -6.5065,
+              55.2425
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Chimney Point",
+        "all_names": [
+          "Chimney Point",
+          "Chimney Stack(s)",
+          "Chimney Stacks",
+          "Giant's Causeway, Chimney Point"
+        ],
+        "links": [
+          "https://www.francisfrith.com/giant-s-causeway/photos",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "Headland carrying the Chimney Stacks west of the main Causeway"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Named headland east of the Grand Causeway."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5038,
+              55.2438
+            ],
+            [
+              -6.5148,
+              55.241
+            ],
+            [
+              -6.5172,
+              55.2418
+            ],
+            [
+              -6.5038,
+              55.2438
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Chimney Stacks",
+        "all_names": [
+          "Chimney Stack(s)",
+          "Chimney Stacks",
+          "Giant's Causeway, Chimney Stacks"
+        ],
+        "links": [
+          "https://ccght.org/giantscausewaywhs/",
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "Group of basalt stacks west of the Causeway"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Columnar basalt sea stacks associated with the Chimney headland."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5019,
+              55.2445
+            ],
+            [
+              -6.5148,
+              55.2411
+            ],
+            [
+              -6.5172,
+              55.2418
+            ],
+            [
+              -6.5019,
+              55.2445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "The Giant's Organ",
+        "all_names": [
+          "Giant's Causeway, Organ",
+          "Giant's Eye",
+          "Giant's Eyes",
+          "The Giant's Organ"
+        ],
+        "links": [
+          "https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/",
+          "https://www.francisfrith.com/giant-s-causeway/photos",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "The famous Organ basalt colonnade"
+        ],
+        "folklore": [
+          "Organ-pipe appearance contributed to many anthropomorphic names across the site."
+        ],
+        "historical_notes": [
+          "Iconic vertical basalt columns."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.516,
+              55.242
+            ],
+            [
+              -6.5095,
+              55.2418
+            ],
+            [
+              -6.5192,
+              55.2432
+            ],
+            [
+              -6.516,
+              55.242
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "The Wishing Chair",
+        "all_names": [
+          "Giant's Causeway, Wishing Chair",
+          "The Wishing Chair",
+          "Wishing Chair"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://www.francisfrith.com/giant-s-causeway/the-wishing-chair-c1897_40432",
+          "https://www.nationaltrustcollections.org.uk/object/3055953"
+        ],
+        "descriptions": [
+          "Natural basalt seat beside the Honeycomb formation"
+        ],
+        "folklore": [
+          "Visitors traditionally sat in the natural throne-shaped basalt seat to make wishes."
+        ],
+        "historical_notes": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5127,
+              55.2409
+            ],
+            [
+              -6.5113,
+              55.2408
+            ],
+            [
+              -6.5121,
+              55.2405
+            ],
+            [
+              -6.5127,
+              55.2409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Giant's Eye",
+        "all_names": [
+          "Giant's Causeway, Giants Eye to E.",
+          "Giant's Eye",
+          "Giant's Eyes"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "View eastward from the feature known as the Giant's Eye"
+        ],
+        "folklore": [
+          "Part of the tradition of naming formations after parts of a sleeping giant."
+        ],
+        "historical_notes": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5088,
+              55.2419
+            ],
+            [
+              -6.5108,
+              55.2409
+            ],
+            [
+              -6.5192,
+              55.2432
+            ],
+            [
+              -6.5088,
+              55.2419
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Honeycomb",
+        "all_names": [
+          "Giant's Causeway, Honeycomb",
+          "Honeycomb",
+          "Middle Causeway (Honeycomb)"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "The Honeycomb basalt formation beside the Wishing Chair"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Named for weathered cellular basalt texture."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5075,
+              55.2413
+            ],
+            [
+              -6.5114,
+              55.2408
+            ],
+            [
+              -6.5129,
+              55.2409
+            ],
+            [
+              -6.5075,
+              55.2413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Lady's Fan",
+        "all_names": [
+          "Giant's Causeway, Lady's Fan",
+          "Lady's Fan"
+        ],
+        "links": [
+          "https://ccght.org/giantscausewaywhs/",
+          "https://www.daera-ni.gov.uk/articles/giants-causeway-world-heritage-site"
+        ],
+        "descriptions": [
+          "Fan-shaped arrangement of basalt columns near the Organ"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Fan-shaped arrangement of basalt columns."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5105,
+              55.2421
+            ],
+            [
+              -6.5096,
+              55.2417
+            ],
+            [
+              -6.516,
+              55.242
+            ],
+            [
+              -6.5105,
+              55.2421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Hamilton's Seat",
+        "all_names": [
+          "Giant's Causeway, from Hamilton's seat to W.",
+          "Hamilton's Seat"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "View west from Hamilton's Seat lookout above the Causeway"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Historic viewing point used by Victorian visitors.",
+          "Modern trail viewpoint overlooking Port na Tober and the Causeway cliffs."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5188,
+              55.2468
+            ],
+            [
+              -6.511,
+              55.2423
+            ],
+            [
+              -6.5235,
+              55.2465
+            ],
+            [
+              -6.5188,
+              55.2468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Lord Antrim's Parlour",
+        "all_names": [
+          "Giant's Causeway, Lord Antrim's parlour",
+          "Lord Antrim's Parlour"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "Flat basalt platform traditionally known as Lord Antrim's Parlour"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Named after the Earls of Antrim, historic landowners of the Causeway estate."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5134,
+              55.2417
+            ],
+            [
+              -6.5118,
+              55.2409
+            ],
+            [
+              -6.512,
+              55.2407
+            ],
+            [
+              -6.5134,
+              55.2417
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Portnaboe",
+        "all_names": [
+          "Giant's Causeway, Portnaboe",
+          "Portnaboe",
+          "Portnaboe Bay"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "Small cove west of Chimney Point"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Small bay and geological exposure east of the principal Causeway.",
+          "Trap dyke photographs likely document intrusive igneous features of geological interest."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.4995,
+              55.2452
+            ],
+            [
+              -6.516,
+              55.2407
+            ],
+            [
+              -6.5088,
+              55.2398
+            ],
+            [
+              -6.4995,
+              55.2452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "The Loom",
+        "all_names": [
+          "Giant's Causeway, Loom",
+          "Giant's Loom",
+          "Loom",
+          "The Loom"
+        ],
+        "links": [
+          "https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/",
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "The Loom basalt structure resembling a weaving loom"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Traditional Victorian name for a patterned basalt formation."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.509,
+              55.241
+            ],
+            [
+              -6.5094,
+              55.2416
+            ],
+            [
+              -6.5122,
+              55.2408
+            ],
+            [
+              -6.509,
+              55.241
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Gateway",
+        "all_names": [
+          "Gateway",
+          "Giant's Causeway, Gateway",
+          "Giant's Gate"
+        ],
+        "links": [
+          "https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/",
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "Natural gap or arch-like basalt formation near the Grand Causeway"
+        ],
+        "folklore": [],
+        "historical_notes": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.511,
+              55.2415
+            ],
+            [
+              -6.5114,
+              55.241
+            ],
+            [
+              -6.5136,
+              55.2402
+            ],
+            [
+              -6.511,
+              55.2415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Lea Gull Skerry",
+        "all_names": [
+          "Giant's Causeway, Lea Gull Skerry",
+          "Gull Skerry",
+          "Lea Gull Skerry"
+        ],
+        "links": [
+          "https://ccght.org/giantscausewaywhs/",
+          "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway"
+        ],
+        "descriptions": [
+          "Offshore skerry used by seabirds below the Causeway cliffs"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Offshore skerry/rock used by seabirds."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5048,
+              55.246
+            ],
+            [
+              -6.5105,
+              55.242
+            ],
+            [
+              -6.5201,
+              55.2424
+            ],
+            [
+              -6.5048,
+              55.246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Stookans",
+        "all_names": [
+          "Giant's Causeway, Stookaus",
+          "Stookans",
+          "Stookaus",
+          "The Stookans"
+        ],
+        "links": [
+          "https://www.francisfrith.com/giant-s-causeway/photos"
+        ],
+        "descriptions": [
+          "The Stookans (Steucans) basalt pinnacles/headland"
+        ],
+        "folklore": [],
+        "historical_notes": [
+          "Basalt stack formations; modern spelling usually rendered 'Stookans'."
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.4978,
+              55.2468
+            ],
+            [
+              -6.5152,
+              55.2412
+            ],
+            [
+              -6.507,
+              55.2397
+            ],
+            [
+              -6.4978,
+              55.2468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "primary_name": "Howes Back",
+        "all_names": [
+          "Giant's Causeway, Howes Back",
+          "Howe's Back",
+          "Howes Back"
+        ],
+        "links": [
+          "https://archive.org/details/photographsofgia00unse",
+          "https://ccght.org/giantscausewaywhs/"
+        ],
+        "descriptions": [
+          "Historic local feature name requiring further map verification.",
+          "Probable ridge-like basalt exposure west of the main Causeway"
+        ],
+        "folklore": [],
+        "historical_notes": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.507,
+              55.2428
+            ],
+            [
+              -6.5135,
+              55.241
+            ],
+            [
+              -6.5148,
+              55.2415
+            ],
+            [
+              -6.507,
+              55.2428
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

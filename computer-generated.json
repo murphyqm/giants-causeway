@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2408,
+        "lng": -6.5117,
+        "title": "Giant's Causeway",
+        "category": "machine generated",
+        "description": "General view of the main basalt pavement and shore platform",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/ ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5117, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2415,
+        "lng": -6.5098,
+        "title": "Giant's Causeway, Amphitheatre",
+        "category": "machine generated",
+        "description": "Semicircular cliff recess east of the Grand Causeway below the Organ cliffs",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://ccght.org/giantscausewaywhs/ ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5098, 55.2415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2415,
+        "lng": -6.5095,
+        "title": "Giant's Causeway, Amphitheatre to E.",
+        "category": "machine generated",
+        "description": "View eastward from the Amphitheatre towards the Organ and bay",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://www.francisfrith.com/giant-s-causeway/photos",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5095, 55.2415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2418,
+        "lng": -6.5097,
+        "title": "Giant's Causeway, Basaltic Colour",
+        "category": "machine generated",
+        "description": "Basalt exposure showing colour variation in the lava flows",
+        "link": "https://www.daera-ni.gov.uk/articles/giants-causeway-world-heritage-site ; https://ccght.org/giantscausewaywhs/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5097, 55.2418]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2407,
+        "lng": -6.513,
+        "title": "Giant's Causeway, Causeway to W.",
+        "category": "machine generated",
+        "description": "Westward view along the Grand Causeway toward Portnaboe",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://niarchive.org/archiveitems/giants-causeway-2/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.513, 55.2407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.241,
+        "lng": -6.5148,
+        "title": "Giant's Causeway, Chimney Point",
+        "category": "machine generated",
+        "description": "Headland carrying the Chimney Stacks west of the main Causeway",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5148, 55.241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.241,
+        "lng": -6.5155,
+        "title": "Giant's Causeway, Chimney Point to W.",
+        "category": "machine generated",
+        "description": "Westward coastal view beyond Chimney Point toward Portnaboe",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5155, 55.241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2411,
+        "lng": -6.5147,
+        "title": "Giant's Causeway, Chimney Stack",
+        "category": "machine generated",
+        "description": "One of the isolated pillar-like basalt stacks on Chimney Point",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://www.gettyimages.in/photos/northern-ireland-giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5147, 55.2411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2411,
+        "lng": -6.5148,
+        "title": "Giant's Causeway, Chimney Stacks",
+        "category": "machine generated",
+        "description": "Group of basalt stacks west of the Causeway",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://ccght.org/giantscausewaywhs/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5148, 55.2411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2411,
+        "lng": -6.5153,
+        "title": "Giant's Causeway, Chimney Stacks to W.",
+        "category": "machine generated",
+        "description": "View west from the Chimney Stacks along the coast",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5153, 55.2411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2409,
+        "lng": -6.5112,
+        "title": "Giant's Causeway, Diamond",
+        "category": "machine generated",
+        "description": "The Giant's Diamond basalt pavement feature near the Grand Causeway",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://www.nationaltrustcollections.org.uk/object/3055953",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5112, 55.2409]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.241,
+        "lng": -6.5114,
+        "title": "Giant's Causeway, Gateway",
+        "category": "machine generated",
+        "description": "Natural gap or arch-like basalt formation near the Grand Causeway",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5114, 55.241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2408,
+        "lng": -6.5115,
+        "title": "Giant's Causeway, General and G. Well",
+        "category": "machine generated",
+        "description": "General view including the Giant's Well tidal pool",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://www.nationaltrustcollections.org.uk/object/3055953",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5115, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2409,
+        "lng": -6.5108,
+        "title": "Giant's Causeway, Giants Eye to E.",
+        "category": "machine generated",
+        "description": "View eastward from the feature known as the Giant's Eye",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5108, 55.2409]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2407,
+        "lng": -6.511,
+        "title": "Giant's Causeway, Grand Causeway",
+        "category": "machine generated",
+        "description": "The largest basalt pavement projecting into the sea",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/ ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.511, 55.2407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2408,
+        "lng": -6.5114,
+        "title": "Giant's Causeway, Honeycomb",
+        "category": "machine generated",
+        "description": "The Honeycomb basalt formation beside the Wishing Chair",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://archive.org/details/photographsofgia00unse",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5114, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.241,
+        "lng": -6.5135,
+        "title": "Giant's Causeway, Howes Back",
+        "category": "machine generated",
+        "description": "Probable ridge-like basalt exposure west of the main Causeway",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://ccght.org/giantscausewaywhs/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5135, 55.241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2417,
+        "lng": -6.5096,
+        "title": "Giant's Causeway, Lady's Fan",
+        "category": "machine generated",
+        "description": "Fan-shaped arrangement of basalt columns near the Organ",
+        "link": "https://ccght.org/giantscausewaywhs/ ; https://www.daera-ni.gov.uk/articles/giants-causeway-world-heritage-site",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5096, 55.2417]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.242,
+        "lng": -6.5105,
+        "title": "Giant's Causeway, Lea Gull Skerry",
+        "category": "machine generated",
+        "description": "Offshore skerry used by seabirds below the Causeway cliffs",
+        "link": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway ; https://ccght.org/giantscausewaywhs/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5105, 55.242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2416,
+        "lng": -6.5094,
+        "title": "Giant's Causeway, Loom",
+        "category": "machine generated",
+        "description": "The Loom basalt structure resembling a weaving loom",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5094, 55.2416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2409,
+        "lng": -6.5118,
+        "title": "Giant's Causeway, Lord Antrim's parlour",
+        "category": "machine generated",
+        "description": "Flat basalt platform traditionally known as Lord Antrim's Parlour",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://archive.org/details/photographsofgia00unse",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5118, 55.2409]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2418,
+        "lng": -6.5095,
+        "title": "Giant's Causeway, Organ",
+        "category": "machine generated",
+        "description": "The famous Organ basalt colonnade",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://collections.vam.ac.uk/item/O215718/giants-causeway-photograph-frith-francis/ ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5095, 55.2418]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2407,
+        "lng": -6.516,
+        "title": "Giant's Causeway, Patnaybo [Portnaboe] Trap Dyke",
+        "category": "machine generated",
+        "description": "Basalt trap dyke exposure at Portnaboe",
+        "link": "https://www.daera-ni.gov.uk/articles/giants-causeway-world-heritage-site ; https://ccght.org/giantscausewaywhs/",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.516, 55.2407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2407,
+        "lng": -6.516,
+        "title": "Giant's Causeway, Portnaboe",
+        "category": "machine generated",
+        "description": "Small cove west of Chimney Point",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.516, 55.2407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2412,
+        "lng": -6.5152,
+        "title": "Giant's Causeway, Stookaus",
+        "category": "machine generated",
+        "description": "The Stookans (Steucans) basalt pinnacles/headland",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5152, 55.2412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2408,
+        "lng": -6.5113,
+        "title": "Giant's Causeway, Wishing Chair",
+        "category": "machine generated",
+        "description": "Natural basalt seat beside the Honeycomb formation",
+        "link": "https://www.francisfrith.com/giant-s-causeway/the-wishing-chair-c1897_40432 ; https://archive.org/details/photographsofgia00unse ; https://www.nationaltrustcollections.org.uk/object/3055953",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5113, 55.2408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2411,
+        "lng": -6.5148,
+        "title": "Giant's Causeway, from Chimney Stack to E.",
+        "category": "machine generated",
+        "description": "Eastward panorama from Chimney Stack toward the Grand Causeway",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5148, 55.2411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2411,
+        "lng": -6.5148,
+        "title": "Giant's Causeway, from Chimney Stack to W.",
+        "category": "machine generated",
+        "description": "Westward panorama from Chimney Stack toward Portnaboe",
+        "link": "https://www.francisfrith.com/giant-s-causeway/photos",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.5148, 55.2411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2423,
+        "lng": -6.511,
+        "title": "Giant's Causeway, from Hamilton's seat to W.",
+        "category": "machine generated",
+        "description": "View west from Hamilton's Seat lookout above the Causeway",
+        "link": "https://archive.org/details/photographsofgia00unse ; https://www.francisfrith.com/giant-s-causeway/photos",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.511, 55.2423]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": 55.2406,
+        "lng": -6.511,
+        "title": "Giant's Causeway, to sea",
+        "category": "machine generated",
+        "description": "Seaward view from the Grand Causeway into the Atlantic",
+        "link": "https://www.gettyimages.in/photos/northern-ireland-giants-causeway ; https://www.francisfrith.com/giant-s-causeway/photos ; https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+        "icon": "⚙️"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.511, 55.2406]
+      }
+    }
+  ]
+}

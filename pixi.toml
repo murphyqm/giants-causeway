@@ -1,0 +1,12 @@
+[project]
+name = "daims-map-analysis"
+version = "0.1.0"
+description = "Analysis and processing for DAIMS Giant's Causeway map"
+authors = ["Maeve Murphy Quinlan"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[dependencies]
+python = ">=3.11"
+jupyter = "*"
+pandas = "*"
