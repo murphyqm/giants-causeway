@@ -183,12 +183,17 @@ async function fetchIIIFManifest(manifestUrl) {
         
         const title = manifest.label?.en?.[0] || manifest.label || 'Unknown';
         let date = 'Date unknown';
+        let extent = '';
         
-        // Extract date from metadata
+        // Extract date and extent from metadata
         if (manifest.metadata && Array.isArray(manifest.metadata)) {
             const dateEntry = manifest.metadata.find(m => m.label?.en?.[0] === 'Date');
             if (dateEntry) {
                 date = dateEntry.value?.none?.[0] || dateEntry.value?.en?.[0] || date;
+            }
+            const extentEntry = manifest.metadata.find(m => m.label?.en?.[0] === 'Extent');
+            if (extentEntry) {
+                extent = extentEntry.value?.en?.[0] || extentEntry.value?.none?.[0] || '';
             }
         }
         
@@ -202,10 +207,10 @@ async function fetchIIIFManifest(manifestUrl) {
             itemUrl = manifest.homepage[0].id;
         }
         
-        return { title, date, thumbnail, itemUrl };
+        return { title, date, extent, thumbnail, itemUrl };
     } catch (error) {
         console.error('Error fetching manifest:', manifestUrl, error);
-        return { title: 'Error loading manifest', date: '', thumbnail: null, itemUrl: null };
+        return { title: 'Error loading manifest', date: '', extent: '', thumbnail: null, itemUrl: null };
     }
 }
 
@@ -259,7 +264,7 @@ async function loadV5() {
                             }
                         }
                         popupContent += `<div style="font-size: 11px; font-weight: bold; margin-bottom: 3px; line-height: 1.3;">${item.title}</div>`;
-                        popupContent += `<div style="font-size: 10px; color: #666;">${item.date}</div>`;
+                        popupContent += `<div style="font-size: 10px; color: #666;">${item.date}${item.extent ? ', ' + item.extent : ''}</div>`;
                         popupContent += '</div>';
                     });
                     
@@ -299,7 +304,7 @@ async function loadV5() {
                             }
                         }
                         popupContent += `<div style="font-size: 11px; font-weight: bold; margin-bottom: 3px; line-height: 1.3;">${item.title}</div>`;
-                        popupContent += `<div style="font-size: 10px; color: #666;">${item.date}</div>`;
+                        popupContent += `<div style="font-size: 10px; color: #666;">${item.date}${item.extent ? ', ' + item.extent : ''}</div>`;
                         popupContent += '</div>';
                     });
                     

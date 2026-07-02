@@ -263,6 +263,7 @@ div[style*="top: 10px"] {
 /* Legend Modal Styling */
 #legendModal {
     font-family: 'Cormorant', serif;
+    background-color: rgb(252, 249, 235);
 }
 
 #legendModal h2 {
