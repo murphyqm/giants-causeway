@@ -175,15 +175,61 @@ function hidePolygon(markerId) {
 // Create layer for v5 combined features
 const v5Layer = L.featureGroup();
 
+// Helper function to fetch and parse IIIF manifest
+async function fetchIIIFManifest(manifestUrl) {
+    try {
+        const response = await fetch(manifestUrl);
+        const manifest = await response.json();
+        
+        const title = manifest.label?.en?.[0] || manifest.label || 'Unknown';
+        let date = 'Date unknown';
+        
+        // Extract date from metadata
+        if (manifest.metadata && Array.isArray(manifest.metadata)) {
+            const dateEntry = manifest.metadata.find(m => m.label?.en?.[0] === 'Date');
+            if (dateEntry) {
+                date = dateEntry.value?.none?.[0] || dateEntry.value?.en?.[0] || date;
+            }
+        }
+        
+        let thumbnail = null;
+        if (manifest.items && manifest.items[0]?.thumbnail?.[0]?.id) {
+            thumbnail = manifest.items[0].thumbnail[0].id;
+        }
+        
+        let itemUrl = null;
+        if (manifest.homepage && manifest.homepage[0]?.id) {
+            itemUrl = manifest.homepage[0].id;
+        }
+        
+        return { title, date, thumbnail, itemUrl };
+    } catch (error) {
+        console.error('Error fetching manifest:', manifestUrl, error);
+        return { title: 'Error loading manifest', date: '', thumbnail: null, itemUrl: null };
+    }
+}
+
 // Load v5 combined features from GeoJSON
 async function loadV5() {
     try {
         const response = await fetch('./manual_updates_manifests_consolidated.geojson');
         const geojsonData = await response.json();
         
-        geojsonData.features.forEach(feature => {
+        for (const feature of geojsonData.features) {
             const props = feature.properties;
             const geomType = feature.geometry.type;
+            
+            // Fetch manifest data for building gallery
+            let manifestData = [];
+            if (props.manifest) {
+                const manifests = Array.isArray(props.manifest) ? props.manifest : [props.manifest];
+                for (const manifestUrl of manifests) {
+                    if (typeof manifestUrl === 'string' && manifestUrl.startsWith('http')) {
+                        const data = await fetchIIIFManifest(manifestUrl);
+                        manifestData.push(data);
+                    }
+                }
+            }
             
             if (geomType === 'Point') {
                 // Handle point features
@@ -196,24 +242,31 @@ async function loadV5() {
                     opacity: 1,
                     fillOpacity: 0.8
                 });
+                
                 let popupContent = `<h3>${props.name}</h3>`;
                 
-                if (props.related_artefacts) {
-                    const artefacts = Array.isArray(props.related_artefacts) ? props.related_artefacts : [props.related_artefacts];
-                    if (artefacts.length > 0) {
-                        popupContent += '<div style="margin-top: 8px;"><strong>Artefacts:</strong><ul style="margin: 5px 0; padding-left: 20px;">';
-                        artefacts.forEach((art, idx) => {
-                            if (typeof art === 'string' && art.startsWith('http')) {
-                                popupContent += `<li style="margin: 3px 0;"><a href="${art}" target="_blank">Link ${idx + 1} →</a></li>`;
+                if (manifestData.length > 0) {
+                    popupContent += '<div style="margin-top: 10px;"><strong>Artefacts:</strong></div>';
+                    popupContent += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-top: 8px;">';
+                    
+                    manifestData.forEach((item) => {
+                        popupContent += '<div style="border: 1px solid #ddd; padding: 8px; border-radius: 4px;">';
+                        if (item.thumbnail) {
+                            if (item.itemUrl) {
+                                popupContent += `<a href="${item.itemUrl}" target="_blank" style="display: block; margin-bottom: 6px;"><img src="${item.thumbnail}" alt="${item.title}" style="width: 100%; height: 80px; object-fit: cover; border-radius: 2px; cursor: pointer;"></a>`;
                             } else {
-                                popupContent += `<li style="margin: 3px 0;">${art}</li>`;
+                                popupContent += `<img src="${item.thumbnail}" alt="${item.title}" style="width: 100%; height: 80px; object-fit: cover; border-radius: 2px; margin-bottom: 6px;">`;
                             }
-                        });
-                        popupContent += '</ul></div>';
-                    }
+                        }
+                        popupContent += `<div style="font-size: 11px; font-weight: bold; margin-bottom: 3px; line-height: 1.3;">${item.title}</div>`;
+                        popupContent += `<div style="font-size: 10px; color: #666;">${item.date}</div>`;
+                        popupContent += '</div>';
+                    });
+                    
+                    popupContent += '</div>';
                 }
                 
-                marker.bindPopup(popupContent);
+                marker.bindPopup(popupContent, { maxWidth: 400, maxHeight: 500 });
                 marker.on('click', function() { this.openPopup(); });
                 v5Layer.addLayer(marker);
                 
@@ -232,26 +285,32 @@ async function loadV5() {
                 
                 let popupContent = `<h3>${props.name}</h3>`;
                 
-                if (props.related_artefacts) {
-                    const artefacts = Array.isArray(props.related_artefacts) ? props.related_artefacts : [props.related_artefacts];
-                    if (artefacts.length > 0) {
-                        popupContent += '<div style="margin-top: 8px;"><strong>Artefacts:</strong><ul style="margin: 5px 0; padding-left: 20px;">';
-                        artefacts.forEach((art, idx) => {
-                            if (typeof art === 'string' && art.startsWith('http')) {
-                                popupContent += `<li style="margin: 3px 0;"><a href="${art}" target="_blank">Link ${idx + 1} →</a></li>`;
+                if (manifestData.length > 0) {
+                    popupContent += '<div style="margin-top: 10px;"><strong>Artefacts:</strong></div>';
+                    popupContent += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-top: 8px;">';
+                    
+                    manifestData.forEach((item) => {
+                        popupContent += '<div style="border: 1px solid #ddd; padding: 8px; border-radius: 4px;">';
+                        if (item.thumbnail) {
+                            if (item.itemUrl) {
+                                popupContent += `<a href="${item.itemUrl}" target="_blank" style="display: block; margin-bottom: 6px;"><img src="${item.thumbnail}" alt="${item.title}" style="width: 100%; height: 80px; object-fit: cover; border-radius: 2px; cursor: pointer;"></a>`;
                             } else {
-                                popupContent += `<li style="margin: 3px 0;">${art}</li>`;
+                                popupContent += `<img src="${item.thumbnail}" alt="${item.title}" style="width: 100%; height: 80px; object-fit: cover; border-radius: 2px; margin-bottom: 6px;">`;
                             }
-                        });
-                        popupContent += '</ul></div>';
-                    }
+                        }
+                        popupContent += `<div style="font-size: 11px; font-weight: bold; margin-bottom: 3px; line-height: 1.3;">${item.title}</div>`;
+                        popupContent += `<div style="font-size: 10px; color: #666;">${item.date}</div>`;
+                        popupContent += '</div>';
+                    });
+                    
+                    popupContent += '</div>';
                 }
                 
-                polygon.bindPopup(popupContent);
+                polygon.bindPopup(popupContent, { maxWidth: 400, maxHeight: 500 });
                 polygon.on('click', function() { this.openPopup(); });
                 v5Layer.addLayer(polygon);
             }
-        });
+        }
         
         console.log(`Loaded ${geojsonData.features.length} v5 features`);
     } catch (error) {
