@@ -29,14 +29,14 @@
 html, body {
     height: 100%;
     font-family: 'Cormorant', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    background-color: rgb(252, 249, 235);
     font-size: 1.2rem;
 }
 
 #map {
     height: 100vh;
     width: 100%;
-    background-color: #e8f4f8;
+    background-color: rgb(252, 249, 235);
 }
 
 /* Headings with Uncial Antiqua */
@@ -57,25 +57,27 @@ div[style*="top: 10px"] {
 
 /* Custom Leaflet Popup Styling */
 .leaflet-popup-content-wrapper {
-    background-color: #ffffff;
-    border-radius: 6px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    background-color: rgb(252, 249, 235);
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: none;
 }
 
 .leaflet-popup-content {
     margin: 0;
+    padding: 16px 20px;
     min-width: 280px;
-    color: #333;
+    color: #333333;
     font-family: 'Cormorant', serif;
     font-weight: 500;
 }
 
 .leaflet-popup-content h3 {
-    color: #1a5f7a;
+    color: #303030;
     margin: 0 0 12px 0;
-    font-size: 1.4em;
-    border-bottom: 2px solid #2d8659;
-    padding-bottom: 8px;
+    font-size: 1.3em;
+    border-bottom: 1px solid #8b8680;
+    padding-bottom: 6px;
     font-family: 'Uncial Antiqua', serif;
     font-weight: normal;
 }
@@ -84,6 +86,19 @@ div[style*="top: 10px"] {
     margin: 8px 0;
     font-size: 1em;
     line-height: 1.5;
+    font-weight: 600;
+}
+
+.leaflet-popup-content ul {
+    color: #373737;
+}
+
+.leaflet-popup-content li {
+    color: #4a4a4a;
+}
+
+.leaflet-popup-content strong {
+    color: #5d4e37;
     font-weight: 600;
 }
 
@@ -99,40 +114,27 @@ div[style*="top: 10px"] {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 12px;
-    background-color: #2d8659;
+    background-color: rgb(252, 249, 235);
     color: white;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 3px;
     font-size: 0.9em;
     font-weight: 600;
     transition: background-color 0.2s;
 }
 
 .popup-link:hover {
-    background-color: #1a5f7a;
+    background-color: rgb(252, 249, 235);
 }
 
-/* Custom Marker Styling */
-.marker-custom {
-    background-color: #2d8659;
-    border: 3px solid white;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: 700;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    font-size: 18px;
+/* Circle Marker Styling */
+.leaflet-circle-marker {
     cursor: pointer;
+    transition: all 0.2s;
 }
 
-.marker-custom:hover {
-    background-color: #1a5f7a;
-    transform: scale(1.15);
-    transition: all 0.2s;
+.leaflet-circle-marker:hover {
+    filter: brightness(1.1);
 }
 
 /* Category-specific marker colors */
@@ -215,7 +217,8 @@ div[style*="top: 10px"] {
 }
 
 .leaflet-popup-tip {
-    background-color: #ffffff;
+    background-color: rgb(252, 249, 235);
+    border: none;
 }
 
 #geologyToggle {

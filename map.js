@@ -59,14 +59,15 @@ async function loadPolygons() {
             const polygonCoords = feature.geometry.coordinates[0]; // Get first ring (exterior)
             const centroid = getPolygonCentroid(feature.geometry.coordinates);
             
-            // Create centroid marker
-            const markerIcon = L.divIcon({
-                html: `<div class="marker-custom marker-polygon">📍</div>`,
-                iconSize: [36, 36],
-                className: 'custom-marker-wrapper'
+            // Create centroid circle marker
+            const marker = L.circleMarker(centroid, {
+                radius: 6,
+                fillColor: '#1976d2',
+                color: '#1976d2',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
             });
-            
-            const marker = L.marker(centroid, { icon: markerIcon });
             const markerId = `polygon-${idx}`;
             marker.markerId = markerId;
             
@@ -94,11 +95,11 @@ async function loadPolygons() {
                 popupContent += `</ul></div>`;
             }
             if (props.links && props.links.length > 0) {
-                popupContent += '<div style="margin-top: 8px;">';
+                popupContent += '<div style="margin-top: 8px;"><strong>References:</strong><ul style="margin: 5px 0; padding-left: 20px;">';
                 props.links.forEach((link, idx) => {
-                    popupContent += `<a href="${link}" target="_blank" class="popup-link" style="display: block; margin: 4px 0;">Link ${idx + 1} →</a>`;
+                    popupContent += `<li style="margin: 3px 0;"><a href="${link}" target="_blank" style="color: #8b8680; text-decoration: underline;">Link ${idx + 1}</a></li>`;
                 });
-                popupContent += '</div>';
+                popupContent += '</ul></div>';
             }
             
             marker.bindPopup(popupContent);
@@ -179,13 +180,14 @@ async function loadV5() {
             if (geomType === 'Point') {
                 // Handle point features
                 const coords = feature.geometry.coordinates;
-                const markerIcon = L.divIcon({
-                    html: `<div class="marker-custom marker-v5">📍</div>`,
-                    iconSize: [36, 36],
-                    className: 'custom-marker-wrapper'
+                const marker = L.circleMarker([coords[1], coords[0]], {
+                    radius: 6,
+                    fillColor: '#9c27b0',
+                    color: '#9c27b0',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
                 });
-                
-                const marker = L.marker([coords[1], coords[0]], { icon: markerIcon });
                 let popupContent = `<h3>${props.name}</h3>`;
                 
                 if (props.related_artefacts) {
