@@ -121,6 +121,15 @@ async function loadPolygons() {
                 L.DomEvent.stopPropagation(e);
             });
             
+            // Hide polygon when popup closes
+            marker.on('popupclose', function() {
+                const polygon = polygonMap[markerId];
+                if (polygon && map.hasLayer(polygon)) {
+                    map.removeLayer(polygon);
+                    currentVisiblePolygon = null;
+                }
+            });
+            
             polygonCentroidsLayer.addLayer(marker);
             
             // Create polygon layer (hidden by default)
@@ -141,7 +150,6 @@ async function loadPolygons() {
             if (props.all_names && props.all_names.length > 0) {
                 polygonPopupContent += `<p><strong>Names:</strong> ${props.all_names.join('; ')}</p>`;
             }
-            polygonPopupContent += `<button onclick="hidePolygon('${markerId}'); return false;" style="padding: 6px 12px; background: #d32f2f; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 8px;">Hide Polygon</button>`;
             
             polygonLayer.bindPopup(polygonPopupContent);
             
