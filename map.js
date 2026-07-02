@@ -352,6 +352,21 @@ document.getElementById('toggleV5').addEventListener('change', function(e) {
     }
 });
 
+// Welcome modal
+const welcomeModal = document.getElementById('welcomeModal');
+const closeWelcomeBtn = document.getElementById('closeWelcome');
+
+closeWelcomeBtn.addEventListener('click', function() {
+    welcomeModal.style.display = 'none';
+});
+
+// Close welcome modal when clicking outside the content box
+welcomeModal.addEventListener('click', function(e) {
+    if (e.target === welcomeModal) {
+        welcomeModal.style.display = 'none';
+    }
+});
+
 // Toggle legend modal
 const legendModal = document.getElementById('legendModal');
 const legendCheckbox = document.getElementById('toggleLegend');
