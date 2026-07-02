@@ -16,7 +16,7 @@ const geologyLayer = L.tileLayer('./tiles/{z}/{x}/{y}.png', {
     opacity: 0.95,
     minZoom: 12,
     maxZoom: 18
-}).addTo(map);
+});
 
 // Toggle geology layer
 document.getElementById('toggleGeology').addEventListener('change', function(e) {
@@ -41,7 +41,7 @@ function getPolygonCentroid(coords) {
 }
 
 // Create layers for polygon features
-const polygonCentroidsLayer = L.featureGroup().addTo(map);
+const polygonCentroidsLayer = L.featureGroup();
 const polygonsLayer = L.featureGroup(); // Hidden by default, shown on centroid click
 
 // Store polygon references by centroid marker ID
@@ -316,6 +316,9 @@ async function loadV5() {
                 v5Layer.addLayer(polygon);
             }
         }
+        
+        // Add v5 layer to map by default
+        v5Layer.addTo(map);
         
         console.log(`Loaded ${geojsonData.features.length} v5 features`);
     } catch (error) {
