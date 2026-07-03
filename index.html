@@ -37,9 +37,12 @@
     <!-- Welcome Modal -->
     <div id="welcomeModal" style="display: flex; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 500; align-items: center; justify-content: center;">
         <div style="background: rgb(252, 249, 235); padding: 30px; border-radius: 8px; max-width: 80%; max-height: 85%; overflow: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <h1 style="margin: 0; color: #333;">Giant's Causeway Map</h1>
-                <button id="closeWelcome" style="background: none; border: none; font-size: 28px; cursor: pointer; color: #999;">&times;</button>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h1 style="margin: 0; color: #333;">The Giant's Causeway:</h1>
+                <button id="closeWelcome" style="background: none; border: none; font-size: 46px; cursor: pointer; color: #484848;">&times;</button>
+            </div>
+            <div style="display: flex; justify-content: flex-end; align-items: right; margin-bottom: 20px">
+            <p style="font-size: 1.5rem; font-style: italic;">through camera, cartography, computer, and seanchas</p>
             </div>
             <div style="line-height: 1.6; color: #555;">
                 <h2 style="color: #333; margin-top: 0;">Welcome</h2>
@@ -47,6 +50,12 @@
                 
                 <h3 style="color: #333; margin-top: 20px;">Data Layers</h3>
                 <p>Will put details of layers here when order is finalised.</p>
+                <h4>Licensing, copyright, and attributions</h4>
+                <ul style="margin: 10px 0; padding-left: 25px;">
+                    <li>Geological Map image and legend courtesy of <a href="https://www.davidrumsey.com/luna/servlet/s/9c8vpn">David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries</a>, exported using the georeferencing tool to GeoTiff, then converted to vector tiles using gdal.</li>
+                    <li>Hand-curated data layer was manually mapped based on the collection image titles and photographs, using landforms, known and named geological outcrops, and both modern day maps and the geological map above. Positions are approximate, for illustrative purposes only.</li>
+                    <li>Scroll the map to explore the area, and use the zoom controls to adjust your view.</li>
+                </ul>
                 <h3 style="color: #333; margin-top: 20px;">How to Use</h3>
                 <ul style="margin: 10px 0; padding-left: 25px;">
                     <li>Use the toggles in the top-right corner to show or hide different data layers.</li>

@@ -164,6 +164,57 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.5028871,
+              55.2473778
+            ],
+            [
+              -6.5027538,
+              55.2471429
+            ],
+            [
+              -6.5025721,
+              55.2470462
+            ],
+            [
+              -6.5024266,
+              55.2470877
+            ],
+            [
+              -6.5025478,
+              55.2472811
+            ],
+            [
+              -6.5026569,
+              55.2473709
+            ],
+            [
+              -6.5027781,
+              55.2474123
+            ],
+            [
+              -6.5028871,
+              55.2473778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Giant's Eye Glass",
+        "related_artefacts": [
+          "https://digital.library.leeds.ac.uk/15953/"
+        ],
+        "manifest": [
+          "https://iiif.library.leeds.ac.uk/presentation/cc/wr27k5b3"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -6.51081,
@@ -439,25 +490,6 @@
           "https://iiif.library.leeds.ac.uk/presentation/cc/wtvt58qg",
           "https://iiif.library.leeds.ac.uk/presentation/cc/gxsmj46j",
           "https://iiif.library.leeds.ac.uk/presentation/cc/ynj4s3gf"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.517575,
-          55.238399
-        ]
-      },
-      "properties": {
-        "name": "Onion weathering",
-        "related_artefacts": [
-          "https://digital.library.leeds.ac.uk/15953/"
-        ],
-        "manifest": [
-          "https://iiif.library.leeds.ac.uk/presentation/cc/wr27k5b3"
         ]
       }
     },
