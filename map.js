@@ -3,12 +3,38 @@ const map = L.map('map', {
     zoomControl: true
 }).setView([55.2408, -6.5107], 12);
 
-// Add OpenStreetMap base layer with sepia filter
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// OpenStreetMap base layer with sepia filter
+const osmLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18,
     className: 'sepia-tiles'
-}).addTo(map);
+});
+
+// Satellite imagery base layer (Esri World Imagery)
+const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri',
+    maxZoom: 18
+});
+
+// Add OSM layer by default
+osmLayer.addTo(map);
+
+// Toggle between satellite and OSM
+document.getElementById('toggleSatellite').addEventListener('change', function(e) {
+    if (e.target.checked) {
+        // Switch to satellite
+        if (map.hasLayer(osmLayer)) {
+            map.removeLayer(osmLayer);
+        }
+        satelliteLayer.addTo(map);
+    } else {
+        // Switch back to OSM
+        if (map.hasLayer(satelliteLayer)) {
+            map.removeLayer(satelliteLayer);
+        }
+        osmLayer.addTo(map);
+    }
+});
 
 // Load local GeoTIFF tiles (TMS format)
 const geologyLayer = L.tileLayer('./tiles/{z}/{x}/{y}.png', {
